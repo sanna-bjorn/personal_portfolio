@@ -1,5 +1,37 @@
 * {
   padding: 0;
-  margin: 0;
+  margin: 1px;
   font-family: 'Roboto', sans-serif;
+}
+
+.page-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-container {
+  display: flex;
+}
+
+img {
+  display: flex;
+  min-width: 3em;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  margin-bottom: 0;
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  justify-content: space-between;
+  padding: 16px;
 }
